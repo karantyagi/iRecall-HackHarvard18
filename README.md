@@ -1,5 +1,5 @@
-# iRecall
-# building real time cross paltform apps @ HackHarvard
+# `iRecall`
+## building real time web app @ HackHarvard
 ## curing the sin of memory
 
 ## repetition is the mother of all skills (5 reviews)
