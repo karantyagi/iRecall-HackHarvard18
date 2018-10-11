@@ -1,4 +1,4 @@
-# `iRecall`#
+# `iRecall`
 ## An intelligent memory and recall management app for humans - give you the best way to memorize stuff.
 ---
 ### Building real time web app @ HackHarvard
