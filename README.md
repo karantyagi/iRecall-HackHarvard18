@@ -33,6 +33,7 @@ __Interview Goal__ : know system architecture + modules + demo app with scalable
 * Design decisions for Tech stack - why MongoDb over Spring JPA or vice-versa
 * (moduarity) + loosely coupled system + make parameters like 1st review time, 2nd review time etc as independent dependencies 
 to the recall algorithm - that will help u make the demo work - as you will scale down 30 days to 7 months and accordingly..
+* is your recall algo an AI ?? is this an AI app ?
 
 __Personal Goals__ : add to devpost + linkedIn post + project + update resume & your personal website + 
 prepare fully for an interview discussion __[do all this as a part of the final demo presentation]__
@@ -48,5 +49,23 @@ Add some basic visualization after retrieveing some queries - like a dashboard o
 * day's recall
 * incorporate short term, long term 
 * something catchy - dashboard + Bot type conversational UI like google assistant;
+
+
+## `Help resources`
+
+* BASE article : https://80000hours.org/2013/04/how-to-improve-your-memory/
+* forgetting curve
+* https://images.slideplayer.com/25/7778135/slides/slide_5.jpg
+* https://slideplayer.com/slide/8985260/27/images/17/Sins+of+Omission+Transience--the+decreasing+accessibility+of+memory+over+time.+Absent-mindedness--lapses+of+attention+and+forgetting+to+do+things..jpg
+* https://image.slidesharecdn.com/chapter7memoryupdated-100315155245-phpapp02/95/chapter-7-memory-45-728.jpg?cb=1268670729
+* https://images.slideplayer.com/25/7778135/slides/slide_6.jpg
+* http://slideplayer.com/slide/9797455/31/images/29/Seven+Sins+of+Memory+29.jpg
+* https://images-na.ssl-images-amazon.com/images/I/918LPldVgSL._AC_UL320_SR208,320_.jpg
+* https://i.stack.imgur.com/jhvLf.jpg
+* https://i2.wp.com/www.criticaltosuccess.com/wp-content/uploads/2016/03/IMG-eppinghaus-retention-curves.gif
+* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBe9NnJHLwFKqdiB7Iifzf3hbdkwlflCYOaeE0CU_Hpx3VwgYpg
+* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKS_zTTq4i7dJ7j9dA_-pLbgERydGSsDOyZrgZHYx-0gGBXSDyQ
+* Google - how plagiarism detector works
+* http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6048/pdf/imm6048.pdf
 
 
