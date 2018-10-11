@@ -1,13 +1,16 @@
-# `iRecall`
-## building real time web app @ HackHarvard
-## curing the sin of memory
+# `iRecall`#
+## An intelligent memory and recall management app for humans - give you the best way to memorize stuff.
+---
+### Building real time web app @ HackHarvard
+### Curing the transience sin of memory
 
-## repetition is the mother of all skills (5 reviews)
-## memory is perfect, recall is fallabile.
+---
+
+* repetition is the mother of all skills (5 reviews)
+* memory is perfect, recall is fallabile.
 
 
 
-An intelligent memory and recall management app for humans - give you the best way to memorize stuff.
 
 Formalizing the problem - 
 Brainstorming rubric:
