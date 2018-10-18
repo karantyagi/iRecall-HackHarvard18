@@ -38,8 +38,6 @@ to the recall algorithm - that will help u make the demo work - as you will scal
 __Personal Goals__ : add to devpost + linkedIn post + project + update resume & your personal website + 
 prepare fully for an interview discussion __[do all this as a part of the final demo presentation]__
 
-### `be careful about working in your repo + integrating pull requests + integrating the system + some commits from your side`
-
 
 {ideally unstructured data, but put lot of constraints for handling } - memorized stuff(notes) type - single answer facts, abbreviations, FB, multiple points for concept with 
 concepts (notion of keyword highlighting + similarity of two text algo + insights from how plagarism detectors work 
