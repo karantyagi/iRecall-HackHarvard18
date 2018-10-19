@@ -1,5 +1,5 @@
 # `iRecall`
-## An intelligent memory and recall management app for humans - give you the best way to memorize stuff.
+## An intelligent memory and recall management app for humans - the best way to memorize for ur tests/exams.
 ---
 ### Building real time web app @ HackHarvard
 ### Curing the transience sin of memory
