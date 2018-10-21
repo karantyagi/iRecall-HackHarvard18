@@ -6,6 +6,19 @@
 
 ![screen shot 2018-10-21 at 1 30 49 am](https://user-images.githubusercontent.com/17843556/47265154-6fa39b00-d4f1-11e8-8b5e-1382a2385441.png)
 
+# `Source Code Repositories`
+
+## Visualizations and Analytics
+__https://github.com/karantyagi/iRecall-HackHarvard18__
+
+## Google Assistant Integration - Dialog Flow
+__https://github.com/shiredude95/hackharvard18__
+ 
+## NodeJS Server
+__https://github.com/rastogi-s/Recall-Bot-Serve__
+
+* implements the forgetting curve algorithm at the backend.
+* provides REST endpoints for accessing topics/notes and revision
 ---
 
 ## Problem Statement:
