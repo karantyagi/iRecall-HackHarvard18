@@ -1,4 +1,4 @@
-# `iRecall`
+# `iRecallBot`
 ## An intelligent memory and recall management app for humans - the best way to memorize for ur tests/exams.
 ---
 ### Building real time web app @ HackHarvard 2019
