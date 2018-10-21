@@ -58,28 +58,3 @@ Useful for all students at home or school.
 We can incorporate Machine learning algorithms to proximate value of S as it varies from brain to brain.
 Expand the implementation using Google Mini or Alexa
 Utilizing One-note api to directly feed data as json into our database in real time
-
-
-
-
-
-
-
-## `Help resources`
-
-* BASE article : https://80000hours.org/2013/04/how-to-improve-your-memory/
-* forgetting curve
-* https://images.slideplayer.com/25/7778135/slides/slide_5.jpg
-* https://slideplayer.com/slide/8985260/27/images/17/Sins+of+Omission+Transience--the+decreasing+accessibility+of+memory+over+time.+Absent-mindedness--lapses+of+attention+and+forgetting+to+do+things..jpg
-* https://image.slidesharecdn.com/chapter7memoryupdated-100315155245-phpapp02/95/chapter-7-memory-45-728.jpg?cb=1268670729
-* https://images.slideplayer.com/25/7778135/slides/slide_6.jpg
-* http://slideplayer.com/slide/9797455/31/images/29/Seven+Sins+of+Memory+29.jpg
-* https://images-na.ssl-images-amazon.com/images/I/918LPldVgSL._AC_UL320_SR208,320_.jpg
-* https://i.stack.imgur.com/jhvLf.jpg
-* https://i2.wp.com/www.criticaltosuccess.com/wp-content/uploads/2016/03/IMG-eppinghaus-retention-curves.gif
-* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBe9NnJHLwFKqdiB7Iifzf3hbdkwlflCYOaeE0CU_Hpx3VwgYpg
-* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKS_zTTq4i7dJ7j9dA_-pLbgERydGSsDOyZrgZHYx-0gGBXSDyQ
-* Google - how plagiarism detector works
-* http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6048/pdf/imm6048.pdf
-
-
