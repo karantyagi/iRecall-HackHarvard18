@@ -1,52 +1,68 @@
-# `iRecall`
+# `iRecallBot`
 ## An intelligent memory and recall management app for humans - the best way to memorize for ur tests/exams.
 ---
-### Building real time web app @ HackHarvard
+### Building real time web app @ HackHarvard 2019
 ### Curing the transience sin of memory
+
+![screen shot 2018-10-21 at 1 30 49 am](https://user-images.githubusercontent.com/17843556/47265154-6fa39b00-d4f1-11e8-8b5e-1382a2385441.png)
 
 ---
 
-* repetition is the mother of all skills (5 reviews)
-* memory is perfect, recall is fallabile.
+## Problem Statement:
+How long can I keep the stuff I learn stored in my mind?  How do I actually remember the stuff I learn? How do I memorize my notes, my textbook, and everything covered in class? How much studying do I actually have to do?
 
 
-Formalizing the problem - 
-Brainstorming rubric:
-* What do we ideally want ? How an ideal Iron-man movie type system behave ?
-* what can be built ?
-* what can be built as a demo app showing all functionality ?
+## Idea:
 
-__Goal : __ A demo app demonstrating how a real time system would behave 
-
-`Live link to app : _____ ` 
-
-__Presentation goal :__ pitch as if this were to be full fledged startup app
-
-`2 youtube videos : Demo app at HackHarvard - shoot and post youtube video - demo presentation + a video of prototype` 
-
-__Interview Goal__ : know system architecture + modules + demo app with scalable architecture + plug in extension
-* design should be SOLID + OOD + incorporate DB + MSD learnings {demonstarte this in the interview}
-* keep clicking pics during brainstorming phase & add to archiecture folder 
-* Your contribution ?? {keep recording} - architecture, recall algorithm + xyz module + SQL queries + backend data models + _frontend UI ??_
-* challenges + technical challenges + fixes
-* learning + takeaway from project ? How to design for scalability ? SOLID + loose couple + independent modules + DI , IoC
-* Design decisions for Tech stack - why MongoDb over Spring JPA or vice-versa
-* (moduarity) + loosely coupled system + make parameters like 1st review time, 2nd review time etc as independent dependencies 
-to the recall algorithm - that will help u make the demo work - as you will scale down 30 days to 7 months and accordingly..
-* is your recall algo an AI ?? is this an AI app ?
-
-__Personal Goals__ : add to devpost + linkedIn post + project + update resume & your personal website + 
-prepare fully for an interview discussion __[do all this as a part of the final demo presentation]__
+The idea is to devise an assistant using Google Assistant app  which can help you revise your notes by asking you questions based on spaced revision reminders. This idea came into our mind when we face this stated problem in our student life while preparing and revising for semesters exams.  This is based on the  Ebbingause Forgetting Curve Theory, according to which, the more you revise what you’ve learnt, the flatter your forgetting curve gets. 
 
 
-{ideally unstructured data, but put lot of constraints for handling } - memorized stuff(notes) type - single answer facts, abbreviations, FB, multiple points for concept with 
-concepts (notion of keyword highlighting + similarity of two text algo + insights from how plagarism detectors work 
-- answer should be as plagarized as possible) (Correctness %)
+## Technical Difficulty:
+The main technical challenge among other challenges was to re-modeled the Ebbingause’s forgetting curve formula : R = e^(-t/s) and implement an algorithm to compute the data. 
+Adjusting  value of S where S is the “strength” of your memory and t is the amount of time that has passed. No specific paper was published so we could get the approx value of S.
 
-Add some basic visualization after retrieveing some queries - like a dashboard or simple list facts :
-* day's recall
-* incorporate short term, long term 
-* something catchy - dashboard + Bot type conversational UI like google assistant;
+![tech](https://user-images.githubusercontent.com/17843556/47265239-d2e1fd00-d4f2-11e8-8e68-7069bc3a4525.JPG)
+
+## Design:
+We have developed an end to end application from front end to show visualization of forgetting curve graph to interacting with google home and in real time updating the database using nosql based on the responses of the questions.
+
+
+
+
+## TECHNOLOGY STACK :
+
+Google Cloud Natural Language API
+Mongodb (nosql)
+Dialog Flow
+Google Actions SDK
+Google App
+Heroku
+Javascript
+
+
+## Additional Info:
+(Spaced Repetition Is Better for Long-Term Retention)
+But if information is repeated at intervals, the brain has to reconstruct that memory, strengthening it like a muscle.
+
+
+
+## Target Audience :
+Students
+Short term memory loss patients
+
+## Usability:
+Useful for all students at home or school. 
+
+
+## Future improvisation:
+We can incorporate Machine learning algorithms to proximate value of S as it varies from brain to brain.
+Expand the implementation using Google Mini or Alexa
+Utilizing One-note api to directly feed data as json into our database in real time
+
+
+
+
+
 
 
 ## `Help resources`
