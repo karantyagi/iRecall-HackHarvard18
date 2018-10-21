@@ -14,7 +14,7 @@ How long can I keep the stuff I learn stored in my mind?  How do I actually reme
 
 ## Idea:
 
-The idea is to devise an assistant using Google Home app  which can help you revise your notes by asking you questions based on spaced revision reminders. This idea came into our mind when we face this stated problem in our student life while preparing and revising for semesters exams.  This is based on the  Ebbingause Forgetting Curve Theory, according to which, the more you revise what you’ve learnt, the flatter your forgetting curve gets. 
+The idea is to devise an assistant using Google Assistant app  which can help you revise your notes by asking you questions based on spaced revision reminders. This idea came into our mind when we face this stated problem in our student life while preparing and revising for semesters exams.  This is based on the  Ebbingause Forgetting Curve Theory, according to which, the more you revise what you’ve learnt, the flatter your forgetting curve gets. 
 
 
 ## Technical Difficulty:
