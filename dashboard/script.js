@@ -64,30 +64,8 @@ let myChart1 = new Chart(ctx1, {
                 {
                     label: 'default recall',
                     data: base_data,
-                    backgroundColor: "rgba(153,255,51,0.2)"
-                },
-                {
-                    label: 'recall after 1st revision',
-                    data: review1,
-                    backgroundColor: "rgba(255,153,0,0.2)"
-                },
-                {
-                    label: 'recall after 2nd revision',
-                    data: review2,
-                    backgroundColor: "rgba(25,153,0,0.2)"
-                },
-                {
-                    label: 'recall after 3rd revision',
-                    data: review3,
-                    backgroundColor: "rgba(200,53,0,0.2)"
-                },
-                {
-                    label: 'recall after 4th revision',
-                    data: review4,
-                    backgroundColor: "rgba(25,13,250,0.2)"
+                    backgroundColor: "rgba(153,255,51,0.25)"
                 }
-
-
             ]
     }
 });
@@ -111,22 +89,7 @@ let myChart2 = new Chart(ctx2, {
                 {
                     label: 'recall after 1st revision',
                     data: review1,
-                    backgroundColor: "rgba(255,153,0,0.15)"
-                },
-                {
-                    label: 'recall after 2nd revision',
-                    data: review2,
-                    backgroundColor: "rgba(25,153,0,0.15)"
-                },
-                {
-                    label: 'recall after 3rd revision',
-                    data: review3,
-                    backgroundColor: "rgba(200,53,0,0.15)"
-                },
-                {
-                    label: 'recall after 4th revision',
-                    data: review4,
-                    backgroundColor: "rgba(25,13,250,0.15)"
+                    backgroundColor: "rgba(255,153,0,0.3)"
                 }
 
 
@@ -154,22 +117,12 @@ let myChart3 = new Chart(ctx3, {
                 {
                     label: 'recall after 1st revision',
                     data: review1,
-                    backgroundColor: "rgba(255,153,0,0.15)"
+                    backgroundColor: "rgba(255,153,0,0.2)"
                 },
                 {
                     label: 'recall after 2nd revision',
                     data: review2,
-                    backgroundColor: "rgba(25,153,0,0.15)"
-                },
-                {
-                    label: 'recall after 3rd revision',
-                    data: review3,
-                    backgroundColor: "rgba(200,53,0,0.15)"
-                },
-                {
-                    label: 'recall after 4th revision',
-                    data: review4,
-                    backgroundColor: "rgba(25,13,250,0.15)"
+                    backgroundColor: "rgba(25,153,0,0.20)"
                 }
 
 
@@ -197,24 +150,18 @@ let myChart4 = new Chart(ctx4, {
                 {
                     label: 'recall after 1st revision',
                     data: review1,
-                    backgroundColor: "rgba(255,153,0,0.15)"
+                    backgroundColor: "rgba(255,153,0,0.18)"
                 },
                 {
                     label: 'recall after 2nd revision',
                     data: review2,
-                    backgroundColor: "rgba(25,153,0,0.15)"
+                    backgroundColor: "rgba(25,153,0,0.18)"
                 },
                 {
                     label: 'recall after 3rd revision',
                     data: review3,
-                    backgroundColor: "rgba(200,53,0,0.15)"
-                },
-                {
-                    label: 'recall after 4th revision',
-                    data: review4,
-                    backgroundColor: "rgba(25,13,250,0.15)"
+                    backgroundColor: "rgba(200,53,0,0.25)"
                 }
-
 
             ]
     }
@@ -303,47 +250,4 @@ let myChart6 = new Chart(ctx6, {
             ]
     }
 });
-
-// curve for 7th topic/question
-
-Chart.defaults.global.elements.line.fill = true;
-
-let ctx7 = document.getElementById("myCurve7").getContext('2d');
-let myChart7 = new Chart(ctx7, {
-    type: 'line',
-    data: {
-        labels: days,
-        datasets:
-            [
-                {
-                    label: 'default recall',
-                    data: base_data,
-                    backgroundColor: "rgba(153,255,51,0.15)"
-                },
-                {
-                    label: 'recall after 1st revision',
-                    data: review1,
-                    backgroundColor: "rgba(255,153,0,0.15)"
-                },
-                {
-                    label: 'recall after 2nd revision',
-                    data: review2,
-                    backgroundColor: "rgba(25,153,0,0.15)"
-                },
-                {
-                    label: 'recall after 3rd revision',
-                    data: review3,
-                    backgroundColor: "rgba(200,53,0,0.15)"
-                },
-                {
-                    label: 'recall after 4th revision',
-                    data: review4,
-                    backgroundColor: "rgba(25,13,250,0.15)"
-                }
-
-
-            ]
-    }
-});
-
 
