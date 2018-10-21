@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+    <head>
+        <title>Live Recall curve</title>
+        <script type="text/javascript" src="moment.js"></script>
+        <script type="text/javascript" src="Chart.js"></script>
+        <script type="text/javascript" src="chartjs-plugin-streaming.js"></script>
+        <!--<script src="liveScript1.js"></script>-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+<div>
+    <h1>Live Recall curve</h1>
+    <canvas id="myChart" width="400px" height="400px" maintainAspectRation="true"></canvas>
+
+</div>
+
+
+<script type="text/javascript" >
+
+    let offset = 0;
+    let strength = 12;
+
+    // The function returns the recall value for a given curve
+    function getRecall(offset, strength, day) {
+        let recall = Math.exp(-(day - offset)/strength);
+        //recall = Math.round(recall*100);
+        recall = recall*100;
+        return recall > 100 ? NaN : recall;
+    }
+
+    let days = ['0', '1', '2', '3', '4', '5', '6', '7',
+        '8', '9', '10', '11', '12', '13', '14',
+        '15', '16', '17', '18', '19', '20', '21',
+        '22', '23', '24', '25', '26', '27', '28',
+        '29', '30'];
+
+    // '31', '32', '33', '34', '35'];
+
+
+    function getRecallData(offset, strength, total_days){
+        let rData = [];
+        for(let i = 0; i < total_days; i++){
+            rData.push(getRecall(offset,strength,i));
+        }
+        return rData;
+    }
+
+    let base_data = getRecallData(0, 12, days.length);
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        type: 'line',
+        data: { },
+        options: {
+            scales: {
+
+                xAxes: [
+                    { type: 'realtime'},
+
+
+                    {
+
+
+
+                    realtime: {
+
+                        onRefresh: function(chart) {
+
+                            chart.data.datasets.forEach(function(dataset) {
+
+                                dataset.data.push({
+
+                                    x: Date.now(),
+
+                                    y: Math.random()
+
+                                });
+
+                            });
+
+                        }
+
+                    }}]
+
+
+            }
+
+        }
+
+
+    });
+</script>
+
+</body>
+</html>
