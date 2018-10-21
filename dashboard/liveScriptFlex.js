@@ -40,7 +40,7 @@ function  getTotalRecall() {
     for(let h = 0; h < dataset.length; h++){
         let diff = (t - new Date(dataset[h].createdAt).getTime() )/ (60 * 60 * 1000 * 24);
         diff = diff.toFixed(8);
-        console.log("Days : ", diff);
+       // console.log("Days : ", diff);
         if(diff > 0){
             countOfDays = countOfDays + 1;
             // console.log("offset: ", equationConstants[dataset[h].strength], " ", "strength: ", dataset[h].strength);
@@ -73,21 +73,15 @@ function randomScalingFactor() {
 
 
 function onRefresh(chart) {
-    if(calls > 2){
+    if(calls > 100){
         api = false;
         console.log("API calls exhausted");
     }
     // console.log(new Date().getTime());
     // console.log("Time : ", timeInSec,"  |   API calls : ",calls);
-    if(timeInSec%10 == 0){
+    if(timeInSec%6 == 0){
         if(api){
-
-            /*
-
-            UNCOMMENT THIS
-
-             */
-            // findAllTopics(fetchData);
+            findAllTopics(fetchData);
         }
         // console.clear();
     }

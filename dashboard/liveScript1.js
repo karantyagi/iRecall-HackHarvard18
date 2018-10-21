@@ -52,7 +52,6 @@ function  getTotalRecall() {
     return sum/countOfDays;
 
     //return (Math.random() > 0.5 ? 1.0 : -1.0) * Math.round(Math.random() * 100);
-
 }
 
 
@@ -73,20 +72,15 @@ function randomScalingFactor() {
 
 
 function onRefresh(chart) {
-    if(calls > 10){
+    if(calls > 100){
         api = false;
         console.log("API calls exhausted");
     }
     // console.log(new Date().getTime());
     // console.log("Time : ", timeInSec,"  |   API calls : ",calls);
-    if(timeInSec%10 == 0){
+    if(timeInSec%6 == 0){
         if(api){
 
-            /*
-
-            UNCOMMENT THIS
-
-             */
             findAllTopics(fetchData);
         }
         // console.clear();
@@ -133,9 +127,9 @@ var config = {
                     labelString: 'Recall %'
                 },
                 ticks: {
-                    max: 100,
-                    min: 60,
-                    stepSize: 5
+                    max: 88,
+                    min: 84,
+                    stepSize: 0.2
                 }
             }]
         },
